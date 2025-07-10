@@ -1,0 +1,122 @@
+/* Nav style */
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.background-img{
+    background-image: url(./Assets/Hero-bg.png);
+    max-width: 1440px;
+    height: 698px;
+    margin: 0 auto;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+
+}
+
+.nav-title{
+   font-weight: 99px;
+   font-size: 51px;
+   cursor: pointer;
+    
+}
+.text-sytle{
+    color: tomato;
+
+}
+.button-style{
+    background-color: tomato;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 132px;
+    height: 48px;
+    border: none;
+    border-radius: 13px;
+    box-shadow: 0 0 1px 1px rgba(158, 147, 147, 0.432);
+    transition: .5s ease;
+    cursor: pointer;
+}
+.button-style:hover{
+    background-color: #03632093;
+}
+
+.banner{
+  text-align: center;          
+  margin-top: 100px;                   
+  padding: 30px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;   
+  font-size: 20px;  
+  font-weight: 905px;    
+
+  
+  
+}
+.banner-button{
+    margin-top: 37px;
+   background-color: tomato;
+   border: none;
+   width: 174px;
+   height: 48px;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 13px;
+   box-shadow: 0 0 1px 1px rgba(158, 147, 147, 0.432);
+    transition: .5s ease;
+    cursor: pointer;
+
+    
+}
+.banner-button:hover{
+    background-color: #03632093;
+}
+.product-event{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 116px 159px 116px 141px;
+}
+
+.iphone{
+    width: 403px;
+    height: 328px;
+    border-radius: 60px;
+}
+.product-event-title h3{
+    font-size: 49px;
+    font-weight: 517px;
+}
+
+.product-event-title p{
+    font-size: 24px;
+    font-weight: 517;
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.product-event-title button{
+     background-color: tomato;
+     width: 229px;
+     height: 55px;
+     font-size: larger;
+     font-weight: bolder;
+     border: none;
+     border-radius: 15px;
+     margin-top: 23px ;
+     box-shadow: 0 0 1px 1px rgba(158, 147, 147, 0.432);
+    transition: .5s ease;
+    cursor: pointer;
+}
+.product-event-title button:hover{
+    background-color: #03632093;
+}
