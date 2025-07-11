@@ -129,9 +129,7 @@ nav{
     text-align: center;
     border-radius: 25px;
 }
-.active-buyer h2{
-    
-}
+
 
 .active-buyer-title{  
     padding: 50px 142px 50px 142px;
@@ -182,6 +180,7 @@ margin-top: 10px ;
     margin-top: 137px;
 }
 .customer-feedback{
+    background-color: ;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -189,6 +188,7 @@ margin-top: 10px ;
 }
 
 .feedback-container{
+    background-color:  rgba(250, 235, 215, 0.486);
     margin-top: 50px;
     width: 300.67px;
     height: 243px;
@@ -204,4 +204,49 @@ margin-top: 10px ;
 .feedback-container span{
     font-size: 12px;
     color: rgba(0, 0, 0, 0.425);
+}
+.second-banner{
+    background-color: rgba(250, 235, 215, 0.486);
+    width: 1140px;
+    height: 696.77px;
+    margin: 0 auto;
+    margin-top: 137px;
+    text-align: center;
+    padding-top: 71px;
+    border-radius: 20px;
+    
+}
+.second-banner-title{
+    margin: -55px;
+}
+.second-banner-title h1{
+    font-size: 60px;
+    font-weight: 516px;
+}
+.second-banner-title p{
+    font-size: 22px;
+    margin-top: -23px;
+    color: rgba(0, 0, 0, 0.473);
+}
+.second-banner-title button{
+    background-color: tomato;
+    width: 195px;
+    height: 48px;
+    font-size: larger;
+    font-weight: bolder;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 1px 1px rgba(158, 147, 147, 0.432);
+    transition: .5s ease;
+    cursor: pointer;
+}
+.second-banner-title button:hover{
+    background-color:#03632093 ;
+}
+.second-banner-picture{
+    margin:120px ;
+    width: 840px;
+    height: 364.77px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.24);
 }
