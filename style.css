@@ -95,6 +95,23 @@ nav{
     height: 328px;
     border-radius: 60px;
 }
+.product-event-title button{
+    background-color: tomato;
+     width: 229px;
+     height: 55px;
+     font-size: larger;
+     font-weight: bolder;
+     border: none;
+     border-radius: 15px;
+     margin-top: 23px ;
+     box-shadow: 0 0 1px 1px rgba(158, 147, 147, 0.432);
+    transition: .5s ease;
+    cursor: pointer;
+
+}
+.product-event-title button:hover{
+    background-color: #03632093;
+}
 .product-event-title h3{
     font-size: 49px;
     font-weight: 517px;
@@ -116,12 +133,10 @@ nav{
      border-radius: 15px;
      margin-top: 23px ;
      box-shadow: 0 0 1px 1px rgba(158, 147, 147, 0.432);
-    transition: .5s ease;
-    cursor: pointer;
+     cursor: pointer;
 }
-.order-now:hover{
-    background-color: #03632093;
-}
+
+
 .active-buyer{
     background-color:antiquewhite;
     width: 1140px;
