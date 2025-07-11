@@ -1,6 +1,6 @@
 /* Nav style */
 
-body{
+main{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -119,4 +119,89 @@ nav{
 }
 .product-event-title button:hover{
     background-color: #03632093;
+}
+.active-buyer{
+    background-color:antiquewhite;
+    width: 1140px;
+    height: 306px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+}
+.active-buyer h2{
+    
+}
+
+.active-buyer-title{  
+    padding: 50px 142px 50px 142px;
+}
+
+
+.active-buyer-user{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.active-buyer-user h1{
+    color: tomato;
+    font-size: 97px ;
+    font-weight: 150px;
+     margin-top:0px;
+    
+}
+.active-buyer-user p{
+    font-size: 24px;
+    font-weight: 120px;
+    margin-top: -85px;
+    color: rgba(0, 0, 0, 0.37);
+}
+
+.customer-feedback{
+    width: 1140px;
+    height: 342px;
+    
+}
+
+
+.rater-info h6{  
+    color: rgba(0, 0, 0, 0.623);
+margin: 0 auto;
+margin-left: 10px;
+margin-top: 10px ;
+
+}
+.rater-info span{
+    color: rgba(0, 0, 0, 0.267);
+}
+
+.customer-feedback-title{
+    text-align: center;
+    margin-top: 137px;
+}
+.customer-feedback{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.feedback-container{
+    margin-top: 50px;
+    width: 300.67px;
+    height: 243px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.24);
+}
+.feedback-container h6{
+    margin:-38px 47px;
+    font-size:15px;
+    color: rgba(0, 0, 0, 0.664);
+}
+.feedback-container span{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.425);
 }
