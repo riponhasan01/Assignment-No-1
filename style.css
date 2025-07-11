@@ -1,6 +1,7 @@
 /* Nav style */
 
 main{
+    
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -237,12 +238,13 @@ margin-top: 10px ;
     border: none;
     border-radius: 15px;
     box-shadow: 0 0 1px 1px rgba(158, 147, 147, 0.432);
-    transition: .5s ease;
-    cursor: pointer;
+    
 }
 .second-banner-title button:hover{
     background-color:#03632093 ;
 }
+
+
 .second-banner-picture{
     margin:120px ;
     width: 840px;
@@ -250,3 +252,69 @@ margin-top: 10px ;
     border-radius: 20px;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.24);
 }
+
+
+
+.contact-section {
+      width: 1140px;
+      height: 632px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+     
+      
+    }
+
+    .contact-left {
+      font-size: 97px;
+      font-weight: bold;
+      color: #000;
+    }
+
+    .contact-right {
+      width: 497px;
+      height: 490;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .contact-right form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-right input,
+    .contact-right textarea {
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .contact-right textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    .contact-right button {
+      background-color: tomato;
+      color: #fff;
+      padding: 15px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition:  0.3s ease;
+    }
+
+    .contact-right button:hover {
+      background-color:#03632093;
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
