@@ -1,9 +1,10 @@
 /* Nav style */
 
-main{
-    
+body{
+    background-color:  #F5F8FF;
     max-width: 1440px;
     margin: 0 auto;
+    font-family: sans-serif;
 }
 
 .background-img{
@@ -105,7 +106,7 @@ nav{
     color: rgba(0, 0, 0, 0.534);
 }
 
-.product-event-title button{
+.order-now{
      background-color: tomato;
      width: 229px;
      height: 55px;
@@ -118,7 +119,7 @@ nav{
     transition: .5s ease;
     cursor: pointer;
 }
-.product-event-title button:hover{
+.order-now:hover{
     background-color: #03632093;
 }
 .active-buyer{
@@ -206,6 +207,9 @@ margin-top: 10px ;
     font-size: 12px;
     color: rgba(0, 0, 0, 0.425);
 }
+.customer-pic{
+    border-radius: 40px;
+}
 .second-banner{
     background-color: rgba(250, 235, 215, 0.486);
     width: 1140px;
@@ -275,15 +279,22 @@ margin-top: 10px ;
     .contact-right {
       width: 497px;
       height: 490;
-      background-color: #fff;
       border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+      
     }
-
+    
     .contact-right form {
       display: flex;
       flex-direction: column;
+
     }
+    .contact-right form input{
+        border-radius: 15px;
+    }
+    .contact-right form textarea{
+        border-radius: 15px;
+    }
+
 
     .contact-right input,
     .contact-right textarea {
@@ -300,10 +311,11 @@ margin-top: 10px ;
     }
 
     .contact-right button {
+        font-weight: bold;
       background-color: tomato;
       color: #fff;
       padding: 15px;
-      font-size: 16px;
+      font-size: 18px;
       border: none;
       border-radius: 5px;
       cursor: pointer;
@@ -318,3 +330,44 @@ margin-top: 10px ;
       font-weight: bold;
       margin-bottom: 5px;
     }
+
+    .footer-style{
+        padding: 104px ;
+        margin:0 auto;
+        background-color: rgba(250, 235, 215, 0.486) ;
+        text-align: center;       
+    }
+    .fotter-logo{
+
+        font-size: 100px;
+        font-weight: bolder;
+    }
+    .footer-style p {
+        font-size:20px ;
+        margin-top: -60px;
+        color: #00000088;
+    }
+    .fotter-logo span{
+        color: tomato;
+
+    }
+
+    .Contact-info{
+        
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        
+        
+    }
+    .Contact-info li{
+         margin: 48px;
+         
+    }
+    .Contact-info a{
+    
+        text-decoration: none;
+        color: #00000088;
+
+    }
+    
